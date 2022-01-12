@@ -13,6 +13,10 @@
 		8A3EC7D9277EF26600EB06DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A3EC7D7277EF26600EB06DA /* Main.storyboard */; };
 		8A3EC7DB277EF26800EB06DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A3EC7DA277EF26800EB06DA /* Assets.xcassets */; };
 		8A3EC7DE277EF26800EB06DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A3EC7DC277EF26800EB06DA /* LaunchScreen.storyboard */; };
+		8A3EC7EB277F5F4400EB06DA /* SimpleSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3EC7E7277F5F4400EB06DA /* SimpleSound.swift */; };
+		8A3EC7EC277F5F4400EB06DA /* woof.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8A3EC7E8277F5F4400EB06DA /* woof.m4a */; };
+		8A3EC7ED277F5F4400EB06DA /* meow.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8A3EC7E9277F5F4400EB06DA /* meow.m4a */; };
+		8A3EC7EE277F5F4400EB06DA /* moo.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8A3EC7EA277F5F4400EB06DA /* moo.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		8A3EC7DA277EF26800EB06DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A3EC7DD277EF26800EB06DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A3EC7DF277EF26800EB06DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A3EC7E7277F5F4400EB06DA /* SimpleSound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleSound.swift; sourceTree = "<group>"; };
+		8A3EC7E8277F5F4400EB06DA /* woof.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = woof.m4a; sourceTree = "<group>"; };
+		8A3EC7E9277F5F4400EB06DA /* meow.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = meow.m4a; sourceTree = "<group>"; };
+		8A3EC7EA277F5F4400EB06DA /* moo.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = moo.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,10 @@
 		8A3EC7D0277EF26600EB06DA /* AnimalSounds */ = {
 			isa = PBXGroup;
 			children = (
+				8A3EC7E9277F5F4400EB06DA /* meow.m4a */,
+				8A3EC7EA277F5F4400EB06DA /* moo.m4a */,
+				8A3EC7E7277F5F4400EB06DA /* SimpleSound.swift */,
+				8A3EC7E8277F5F4400EB06DA /* woof.m4a */,
 				8A3EC7D1277EF26600EB06DA /* AppDelegate.swift */,
 				8A3EC7D3277EF26600EB06DA /* SceneDelegate.swift */,
 				8A3EC7D5277EF26600EB06DA /* ViewController.swift */,
@@ -125,9 +137,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A3EC7EE277F5F4400EB06DA /* moo.m4a in Resources */,
 				8A3EC7DE277EF26800EB06DA /* LaunchScreen.storyboard in Resources */,
 				8A3EC7DB277EF26800EB06DA /* Assets.xcassets in Resources */,
 				8A3EC7D9277EF26600EB06DA /* Main.storyboard in Resources */,
+				8A3EC7ED277F5F4400EB06DA /* meow.m4a in Resources */,
+				8A3EC7EC277F5F4400EB06DA /* woof.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +156,7 @@
 				8A3EC7D6277EF26600EB06DA /* ViewController.swift in Sources */,
 				8A3EC7D2277EF26600EB06DA /* AppDelegate.swift in Sources */,
 				8A3EC7D4277EF26600EB06DA /* SceneDelegate.swift in Sources */,
+				8A3EC7EB277F5F4400EB06DA /* SimpleSound.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
